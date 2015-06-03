@@ -1,7 +1,7 @@
 {
-  "name": "olooweb",
+  "name": "node-jade-stylus-webapp-scaffold",
   "version": "1.0.0",
-  "description": "",
+  "description": "a framework-less, db agnostic starter to node.js projects using jade and stylus",
   "main": "index.js",
   "scripts": {
     "start": "npm run build && node index.js",

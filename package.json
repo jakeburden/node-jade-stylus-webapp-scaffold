@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "ecstatic": "^0.8.0",
-    "routes": "^2.0.0"
+    "routes": "^2.0.0",
+    "trumpet": "^1.7.1"
   },
   "devDependencies": {
     "autoprefixer-stylus": "^0.7.0",

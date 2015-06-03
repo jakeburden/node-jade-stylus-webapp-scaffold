@@ -1,0 +1,25 @@
+{
+  "name": "olooweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node index.js",
+    "test": "rm -rf views.js && standard",
+    "build": "npm run templatizer && npm run stylus",
+    "templatizer": "templatizer -d ./resources/jade_views -o views.js",
+    "stylus": "stylus -u autoprefixer-stylus -c ./resources/stylus/app.styl --out ./static/public/styles/app.css"
+  },
+  "author": "Jacob Burden",
+  "license": "ISC",
+  "dependencies": {
+    "ecstatic": "^0.8.0",
+    "routes": "^2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.7.0",
+    "standard": "^4.0.1",
+    "stylus": "^0.51.1",
+    "templatizer": "^1.5.0"
+  }
+}

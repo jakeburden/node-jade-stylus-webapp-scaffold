@@ -2,23 +2,27 @@ This is just a minimalistic scaffold to node.js / io.js web projects. There is n
 
 ## getting started
 
-### install the modules
-    npm install
+To get started, just write two commands into the terminal.
 
-### build and run
+    $  npm install
+    $  npm start
 
-    npm start
+## Other useful commands
 
-### build views and styles only
+compile the views and styles
+
     npm run build
 
-### build views only
+build only the views
+
     npm run templatizer
 
-### build styles only
+build build only the styles
+
     npm run stylus
 
-### test
+test (currently just runs a code linter)
+
     npm test
 
 

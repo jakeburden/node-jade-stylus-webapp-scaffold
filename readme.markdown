@@ -1,4 +1,4 @@
-This is just a minimalistic scaffold to node.js / io.js web projects. There is no framework, just tiny modules found, and it's database agnostic.
+This is just a minimalistic scaffold to node.js / io.js web projects. There is no framework (just tiny modules found on npm), and it's database agnostic, meaning you can leveldb, mongo, couchdb, etc...
 
 ## getting started
 

@@ -2,7 +2,8 @@ This is just a minimalistic scaffold to node.js / io.js web projects. There is n
 
 ## getting started
 
-To get started, just write two commands into the terminal.
+To get started, write two commands into the terminal. This will install the
+node modules, build the views, compile/concat/autoprefix the styles, and run the server.
 
     $  npm install
     $  npm start
